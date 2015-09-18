@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip"
+        android:id="@+id/buttonPanel"
+        android:visibility="visible">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magic Mike"
+            android:id="@+id/btnMagicMike"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wonder 4 Jackpots"
+            android:id="@+id/btnWonder4"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WICKED WINNINGS"
+            android:id="@+id/btnWickedWinnings"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FILE"
+            android:id="@+id/btnFile"/>
+
+        <Button
+            android:id="@+id/start_native"
+            android:text="@string/start_native"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/rewind_native"
+            android:text="@string/rewind_native"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FULL SCREEN"
+            android:id="@+id/btnFullScreen"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip"
+        android:id="@+id/filePanel"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/source_select"
+            />
+        <Spinner
+            android:id="@+id/source_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/source_prompt"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <SurfaceView
+            android:id="@+id/surfaceview1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+    </LinearLayout>
+
+</LinearLayout>
