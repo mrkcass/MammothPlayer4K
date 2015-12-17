@@ -1,4 +1,4 @@
-# MammothPlayer4K
+MammothPlayer4K
 
 Purpose:
   *Hardware accelerated video player for looping 4K, kiosk style, videos.
@@ -10,4 +10,4 @@ Notes:
   *Movies are loaded from the sdcard. the default directory is /sdcard/aristocrat/movies.
    If you would like to use a different path, change "mMoviePath" to your liking.
   *Some streaming formats are known to cause a crash. I know it is something to do with how
-   I restart the animation when looping.
+   I restart the animation when looping. test
